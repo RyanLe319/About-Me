@@ -3,6 +3,10 @@
     flex-direction: row;
 }
 
+.links{
+    display: flex
+}
+
 .gradient-background {
     background: linear-gradient(300deg, #5AB2FF, #A0DEFF, #CAF4FF, #FFF9D0);
     background-size: 180% 180%;
