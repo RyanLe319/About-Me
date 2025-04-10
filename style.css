@@ -1,0 +1,164 @@
+.about-me{
+    display: flex;
+    flex-direction: row;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #5AB2FF, #A0DEFF, #CAF4FF, #FFF9D0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
+
+h1{
+    font-size: 4rem;
+    color: #FFBA59;
+}
+
+h2{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    color: #FFBA59;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: #FFBA59;
+    font-size: 2rem;
+}
+
+span{
+    color: #6C7780;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.rip > p{
+    font-size: .75rem;
+}
+
+
+.header-image img{
+    border-radius: 50%;
+}
+
+.project-items{
+}
+
+
+.project1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    
+}
+
+.project1-c1{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px;
+    border: solid #FFF9D0;
+
+}
+
+.project1-c1 img{
+    height: 450px;
+}
+
+.project1-info{
+    grid-column: span 3;
+    
+}
+
+.project1-float > p{
+    margin-top: 50px;
+}
+
+.project1-float img{
+    float: right;
+    height: 300px;
+    margin: 5px;
+}
+
+
+.project2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.project2-c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 15px;
+    border: solid #FFF9D0;
+    min-height: 200px;
+}
+
+.project2-c1 img{
+    width: 100%;
+    height: auto;
+}
+
+.project2-info{
+    grid-column: span 3;
+    
+}
+
+.project2-float h3, p{
+    
+}
+
+.project2-float img{
+    float: right;
+    width: 300px;
+    margin: 5px;
+}
+
+.skill-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-items >div{
+    
+}
+
+.skill-items img{
+
+    height: 100px;
+}
+
+.hobby{
+    display: flex;
+}
+
+
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-square > img{
+    width: 75px;
+}
+
+.texts{
+    padding-left: 10px;
+}
